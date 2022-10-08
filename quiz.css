@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');body{
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+    label {
+        font-size: 24px;
+        margin: 10px 5px;
+        margin-top: -10px;
+        font-weight: 500;
+    }
+    .opts{
+        margin-top: 50px;
+    }
+    #ques{
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    .btn{
+        width: 130px;
+        text-transform: capitalize;
+        font-size: 17px;
+    }
+  
+    .done{
+        font-size: 150px;
+        color: green;
+    }
+
+    .cont{
+        margin-top: 150px;
+    }
+
+    .footer{
+        /* position: fixed;  */
+        margin-top: 50px;
+        text-align: center;
+        left: 35%;
+        font-size: 20px;
+        color: white;
+        display: none;
+    }
+    .head{display: none;}
+  
+  
+  
+  @media screen and (min-width:318px) and (max-width:361px){
+  
+    label {
+        font-size: 16px;
+        margin: 7px 5px;
+        margin-top: -10px;
+    }
+    .opts{
+        margin: 15px;
+    }
+    #ques{
+        font-size: 20px;
+        letter-spacing: 1px;
+        
+    }
+    .btn{
+        width: 150px;
+        font-size: 17px;
+    }
+  
+    .done{
+        font-size: 105px;
+        color: green;
+    }
+
+    .cont{
+        margin-top: 30px;
+    }
+    .head{
+        margin: 15px 0px;
+        font-size: 21px;
+        color: white;
+        font-weight: bold;
+        display: block;
+    }
+    .footer{
+      
+        display: none;
+    }
+  }
+  @media screen and (min-width:362px) and (max-width:450px) {
+    
+    label {
+        font-size: 21px;
+        margin: 7px 5px;
+        margin-top: -10px;
+        font-weight: 400;
+    }
+    .opts{
+        margin-top: 20px;
+    }
+    #ques{
+        font-size: 21px;
+        letter-spacing: 1px;
+        
+    }
+    .btn{
+        width: 120px;
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+  
+    .done{
+        font-size: 105px;
+        color: green;
+    }
+
+    .cont{
+        margin-top: 10px;
+    }
+    .head{
+        margin: 23px 0px;
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        display: block;
+    }
+    .footer{
+        
+        display: block;
+    }
+  }
+
+

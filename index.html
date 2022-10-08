@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+rel="stylesheet"
+/>
+<link rel="stylesheet" href="quiz.css">
+<link rel="shortcut icon" href="http://cdn.onlinewebfonts.com/svg/img_454750.png" type="image/x-icon">
+
+    <title>HTML CSS Quiz </title>
+</head>
+<body>
+
+    <div class="container-fluid cont">
+        <h3 class="head" id="head">This is a basic html css js quiz , try and check your  knowledge </h3>
+    <div class="row p-2 ">
+        <div class="col-lg-6 offset-lg-3 col-md-10 col-sm-10">
+            <div class="card shadow-5-strong p-2 rounded-7">
+                <div class="card-body" id="box">
+                    <div class="ques my-2 text-start text-wrap">
+                        <h4 id="ques" class="text-start text-wrap"></h4>
+
+                    </div>
+                    <div class="opts">
+                     
+
+                            <input type="radio" name="opt" class="form-check-input options" value="a" id="a" >
+                            <label for="a" class="form-label"></label><br><br>
+                            
+                        
+                        <input type="radio" name="opt" class="form-check-input options" value="b" id="b" >
+                        <label for="b" class="form-label"></label><br><br>
+
+                        
+                        <input type="radio" name="opt" class="form-check-input options" value="c" id="c" >
+                        <label for="c" class="form-label"></label><br><br>
+
+                        
+                        <input type="radio" name="opt" class="form-check-input options" value="d" id="d" >
+                        <label for="d" class="form-label"></label><br><br>
+
+                        <div class="mt-1">
+
+                            <button type="submit" class="btn btn-dark btn-rounded" 
+                          onclick="submitQuiz()" >Submit</button>
+                        </div>
+                       
+                 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  
+ </div>
+<footer>
+    <div class=" footer">
+        <p>Designed with <i class="fa fa-heart text-danger" aria-hidden="true"></i> </p>
+    </div>
+</footer>  
+                        
+                        
+                       
+   
+
+<script src="quiz.js"></script>
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
+></script>
+</body>
+</html>
+
